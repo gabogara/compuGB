@@ -2,6 +2,7 @@ import React from "react";
 import FirstComponent from "./components/FirstComponent";
 import SecondComponent from "./components/SecondComponent";
 import Eventos from "./components/Eventos";
+import States from "./States";
 
 const App = () => {
   const persona = {
@@ -14,6 +15,7 @@ const App = () => {
       <FirstComponent />
       <SecondComponent persona={persona} />
       <Eventos />
+      <States />
     </div>
   );
 };
