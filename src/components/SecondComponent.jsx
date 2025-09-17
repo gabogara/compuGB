@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "react";
 
-export const SecondComponent = ({ persona: { nombre, apellido } }) => {
+const SecondComponent = ({ persona: { nombre, apellido } }) => {
   const nombres = ["Juan", "Pedro", "Jose"];
   return (
     <div>

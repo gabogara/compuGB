@@ -1,6 +1,6 @@
 import React from "react";
 
-export const FirstComponent = () => {
+const FirstComponent = () => {
   const books = ["book1", "book2", "book3", "book4"];
   //const books = [];
 

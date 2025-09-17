@@ -1,6 +1,7 @@
 import React from "react";
-import { FirstComponent } from "./FirstComponent";
-import SecondComponent from "./SecondComponent";
+import FirstComponent from "./components/FirstComponent";
+import SecondComponent from "./components/SecondComponent";
+import Eventos from "./components/Eventos";
 
 const App = () => {
   const persona = {
@@ -12,6 +13,7 @@ const App = () => {
       <h1>Bienvenido</h1>
       <FirstComponent />
       <SecondComponent persona={persona} />
+      <Eventos />
     </div>
   );
 };
